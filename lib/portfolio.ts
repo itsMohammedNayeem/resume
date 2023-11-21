@@ -13,8 +13,8 @@ export type Portfolio = {
 export const getPortfolio = (): Portfolio[] => [
   {
     title: 'Zattoo 2008',
-    image: 'zattoo.png',
-    url: 'zattoo.ch',
+    image: 'mindtree.png',
+    url: 'mindtree.ch',
     tech: ['php', 'js', 'rrd']
   },
   {
@@ -63,7 +63,7 @@ export const getPortfolio = (): Portfolio[] => [
   },
   {
     image: 'balihai.png',
-    title: 'BALI HAI Group',
+    title: 'Preqin Group',
     url: 'balihaicruises.com',
     tech: ['wordpress', 'css', 'html', 'js']
   },

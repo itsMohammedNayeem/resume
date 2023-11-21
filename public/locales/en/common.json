@@ -25,9 +25,9 @@
   },
   "hero": {
     "hello": "Hello World,",
-    "iam": "I am Vanessa,",
+    "iam": "I am Nayeem,",
     "profession": "React developer",
-    "lead": "I create efficient web applications using a broad tech stack, preferrably ReactJs / NextJs and TailwindCss."
+    "lead": "I create efficient web applications using a broad tech stack, preferrably ReactJs, and TailwindCss."
   },
   "about": {
     "title": "About me",
@@ -46,55 +46,55 @@
     }
   },
   "work": {
-    "title": "Work experiance",
-    "datatrans": {
-      "title": "Senior Software Engineer",
-      "company": "Datatrans / Planet",
-      "time": "April 2019 - present"
+    "title": "Work experience",
+    "planet": {
+      "title": "Senior React Engineer",
+      "company": "Planet",
+      "time": "Jan 2023 - present"
     },
-    "balihai": {
-      "title": "Digital Marketing / Online Manager",
-      "company": "Bali Hai",
-      "time": "Dec 2016 - Nov 2018"
+    "preqin": {
+      "title": "Senior Engineer - Frontend",
+      "company": "Preqin",
+      "time": "Feb 2022 - Jan 2023"
     },
-    "blackriver": {
-      "title": "Lead Frondend Developer",
-      "company": "Blackriverdata",
-      "time": "Dec 2015 - Jan 2017"
+    "wipro": {
+      "title": "Technical Lead",
+      "company": "Wipro Limited",
+      "time": "Sep 2020 - Feb 2022"
     },
-    "ttt": {
-      "title": "Intern - SSI Scuba Dive Instructor",
-      "company": "Tauch Terminal Tulamben",
-      "time": "Feb 2015 - Nov 2015"
+    "itc": {
+      "title": "Lead Consultant",
+      "company": "ITC Infotech",
+      "time": "Jan 2019 - Sep 2020"
     },
-    "divio": {
-      "title": "Senior Frontend Developer",
-      "company": "Divio Ag",
-      "time": "Oct 2013 - Jan 2015"
+    "time": {
+      "title": "Senior Software Developer",
+      "company": "Dotdash Meredith (Time Inc)",
+      "time": "Dec 2015 - Dec 2018"
     },
-    "liip": {
-      "title": "Intern - Frontend Developer",
-      "company": "Liip AG",
-      "time": "Aug 2009 - Jun 2013"
+    "hcl": {
+      "title": "Senior Software Developer",
+      "company": "HCL Technologies",
+      "time": "May 2015 - Dec 2015"
     },
-    "zattoo": {
-      "title": "Intern",
-      "company": "Zattoo Inc.",
-      "time": "Aug 2008 - May 2009"
+    "mindtree": {
+      "title": "Senior Software Developer",
+      "company": "Mindtree Limited",
+      "time": "Jul 2014 - May 2015"
     },
-    "ksh": {
-      "title": "Student",
-      "company": "School of Computer Science Hottingen",
-      "time": "Aug 2004 - Jul 2008"
+    "infy": {
+      "title": "Systems Engineer/Senior Systems Engineer",
+      "company": "Infosys Limited",
+      "time": "Jul 2011 - Jul 2014"
     }
   },
   "skills": {
     "title": "Skills and Expertise",
-    "html": "HTML / CSS / SASS",
-    "javascript": "Javascript (ES6) / ReactJs / ExpressJs",
-    "marketing": "Marketing / Social Media",
-    "agile": "Agile Managment",
-    "photoshop": "Photoshop / Figma"
+    "html": "HTML / CSS / TailwindCss / SAAS",
+    "javascript": "Javascript (ES6) / ReactJs",
+    "state": "Redux / React query",
+    "agile": "Agile Management",
+    "api": "RESTful APIs"
   },
   "counter": {
     "title": "Counter",
@@ -129,8 +129,8 @@
   "footer": {
     "contact": "My personal contact",
     "phone": "+91 99454 90735",
-    "hello": "Say Hallo",
+    "hello": "Say Hello",
     "mail": "nayeem.gmit@gmail.com",
-    "no_spoon": "There is no spoon"
+    "no_spoon": "hidden"
   }
 }

@@ -14,7 +14,7 @@ const About = () => {
   const [isSmiley, setIsSmiley] = useState<Boolean>(false)
 
   // eslint-disable-next-line i18next/no-literal-string
-  const smiley = <>&#128512;</>
+  const smiley = <>&#x1F34C;</>
 
   return (
     <section
@@ -78,7 +78,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className='line hidden lg:block lg:mt-[2px] xl:mt-0'></div>
+          <div className='line hidden lg:block lg:mt-[6px]'></div>
         </div>
       </div>
     </section>

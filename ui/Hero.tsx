@@ -4,18 +4,23 @@ import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
 
+import { useTheme } from '@/context/ThemeContext'
+import logo from '@/public/images/ProfileLogo.svg'
 import banner from '@/public/images/banner.jpg'
-import logo from '@/public/images/logo-no-background.svg'
-import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import {
+  faFacebookF,
+  faGithub,
+  faInstagram,
+  faLinkedin,
+  faXTwitter
+} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { MobileNavigation, Navigation } from './Navigation'
 import Settings from './Settings'
-import { useTheme } from '@/context/ThemeContext'
 
 const Hero = ({ ...pageProps }) => {
   const { t } = useTranslation()
-
 
   const [darkMode] = useTheme()
   const [settings, setSettings] = useState<boolean>(false)
@@ -39,7 +44,7 @@ const Hero = ({ ...pageProps }) => {
         <nav className='pl-8 py-8 hidden md:block'>
           <div
             style={{
-              backgroundColor: darkMode ? '#B2FF9E' : '#086375',
+              backgroundColor: darkMode ? '#ffffff' : '#000000',
               mask: `url(${logo.src}) no-repeat center / contain`,
               WebkitMask: `url(${logo.src}) no-repeat center / contain`,
               height: '80px',
@@ -83,7 +88,7 @@ const Hero = ({ ...pageProps }) => {
               </div>
 
               <div className='relative z-10 w-full text-white dark:text-black top-0 left-0 pt-5'>
-                <h4 className='text-xl xl:text-2xl mb-2'>{t('hero.hello')}</h4>
+                <h4 className='text-xl italic xl:text-2xl mb-2'>{t('hero.hello')}</h4>
                 <h2 className='text-2xl xl:text-6xl mb-4'>
                   {t('hero.iam')}
                   <br />
@@ -93,13 +98,19 @@ const Hero = ({ ...pageProps }) => {
               </div>
 
               <div className='relative z-10 w-full whitespace-nowrap text-center sm:text-left text-white dark:text-black'>
-                <a href='https://www.facebook.com/iammohammednayeem/' target='_blank' rel='noreferrer'>
-                  <FontAwesomeIcon icon={faFacebook} size='2x' className='mr-3' title='Facebook' />
+                <a
+                  href='https://www.facebook.com/iammohammednayeem/'
+                  target='_blank'
+                  rel='noreferrer'>
+                  <FontAwesomeIcon icon={faFacebookF} size='2x' className='mr-3' title='Facebook' />
                 </a>
                 <a href='https://twitter.com/fmaker123' target='_blank' rel='noreferrer'>
-                  <FontAwesomeIcon icon={faTwitter} size='2x' className='mr-3' title='Twitter' />
+                  <FontAwesomeIcon icon={faXTwitter} size='2x' className='mr-3' title='Twitter' />
                 </a>
-                <a href='https://www.instagram.com/itsmohammednayeem/' target='_blank' rel='noreferrer'>
+                <a
+                  href='https://www.instagram.com/itsmohammednayeem/'
+                  target='_blank'
+                  rel='noreferrer'>
                   <FontAwesomeIcon
                     icon={faInstagram}
                     size='2x'
@@ -107,11 +118,11 @@ const Hero = ({ ...pageProps }) => {
                     title='Instagram'
                   />
                 </a>
-                <a
-                  href='https://www.linkedin.com/in/inayeem/'
-                  target='_blank'
-                  rel='noreferrer'>
-                  <FontAwesomeIcon icon={faLinkedin} size='2x' title='Linkedin' />
+                <a href='https://www.linkedin.com/in/inayeem/' target='_blank' rel='noreferrer'>
+                  <FontAwesomeIcon icon={faLinkedin} size='2x' className='mr-3' title='Linkedin' />
+                </a>
+                <a href='https://github.com/itsMohammedNayeem/' target='_blank' rel='noreferrer'>
+                  <FontAwesomeIcon icon={faGithub} size='2x' title='Github' />
                 </a>
               </div>
             </div>

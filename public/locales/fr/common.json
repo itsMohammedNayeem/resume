@@ -22,9 +22,9 @@
   },
   "hero": {
     "hello": "Bonjour à tous,",
-    "iam": "Je m'appelle Vanessa,",
+    "iam": "Je m'appelle Nayeem,",
     "profession": "Développeur Web",
-    "lead": "Je crée des applications Web efficaces en utilisant une large pile technologique, de préférence ReactJs / NextJs et TailwindCss."
+    "lead": "Je crée des applications Web efficaces en utilisant une large pile technologique, de préférence ReactJs, et TailwindCss."
   },
   "footer": {
     "contact": "Mon contact personnel",
@@ -51,42 +51,42 @@
   },
   "work": {
     "title": "Expérience professionnelle",
-    "datatrans": {
-      "title": "Senior Software Engineer",
-      "company": "Datatrans / Planet",
+    "planet": {
+      "title": "Senior React Engineer",
+      "company": "Planet",
       "time": "Avril 2019 - présent"
     },
-    "balihai": {
-      "title": "Digital Marketing / Online Manager",
-      "company": "Bali Hai",
+    "preqin": {
+      "title": "Senior Engineer - Frontend",
+      "company": "Preqin",
       "time": "Déc. 2016 - Nov. 2018"
     },
-    "blackriver": {
-      "title": "Lead Frondend Developer",
-      "company": "Blackriverdata",
+    "wipro": {
+      "title": "Technical Lead",
+      "company": "Wipro Limited",
       "time": "Déc. 2015 - Janvier 2017"
     },
-    "ttt": {
+    "itc": {
       "title": "Stagiaire - Instructeur de plongée SSI",
-      "company": "Tauch Terminal Tulamben",
+      "company": "ITC Infotech",
       "time": "Février 2015 - Novembre 2015"
     },
-    "divio": {
-      "title": "Senior Frontend Developer",
-      "company": "Divio Ag",
+    "time": {
+      "title": "Senior Software Developer",
+      "company": "Dotdash Meredith (Time Inc)",
       "time": "Octobre 2013 - Janvier 2015"
     },
-    "liip": {
+    "hcl": {
       "title": "Stagiaire - Frontend Developer",
-      "company": "Liip AG",
+      "company": "HCL Technologies",
       "time": "Août 2009 - Juin 2013"
     },
-    "zattoo": {
+    "mindtree": {
       "title": "Stagiaire",
-      "company": "Zattoo Inc.",
+      "company": "Mindtree Limited",
       "time": "Août 2008 - Mai 2009"
     },
-    "ksh": {
+    "infy": {
       "title": "Étudiant",
       "company": "École d'informatique de Hottingen",
       "time": "Août 2004 - Juillet 2008"
@@ -99,9 +99,9 @@
     "title": "Compétences et expertise",
     "html": "HTML / CSS / SASS",
     "javascript": "Javascript (ES6) / ReactJs / ExpressJs",
-    "marketing": "Marketing / Social Media",
+    "state": "Redux / React query",
     "agile": "Agile Managment",
-    "photoshop": "Photoshop / Figma"
+    "api": "RESTful APIs"
   },
   "counter": {
     "title": "Counter"

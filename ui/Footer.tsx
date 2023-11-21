@@ -2,8 +2,14 @@ import clsx from 'clsx'
 import { useTranslation } from 'next-i18next'
 import React, { useState } from 'react'
 
-import logo from '@/public/images/logo-no-background.svg'
-import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import logo from '@/public/images/ProfileLogo.svg'
+import {
+  faFacebookF,
+  faGithub,
+  faInstagram,
+  faLinkedin,
+  faXTwitter
+} from '@fortawesome/free-brands-svg-icons'
 import { faEye } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -15,7 +21,7 @@ const Footer = () => {
   return (
     <section className='bg-gradient text-bordeaux' id='footer'>
       <footer className='py-20 md:container md:mx-auto'>
-        <div className='flex justify-between items-end'>
+        <div className='p-6 flex justify-between items-end'>
           <div>
             <div
               style={{
@@ -62,16 +68,19 @@ const Footer = () => {
           </div>
           <div className='socmed'>
             <a href='https://www.facebook.com/iammohammednayeem/' target='_blank' rel='noreferrer'>
-              <FontAwesomeIcon icon={faFacebook} size='2x' className='mr-3' title='Facebook' />
+              <FontAwesomeIcon icon={faFacebookF} size='2x' className='mr-3' title='Facebook' />
             </a>
             <a href='https://twitter.com/fmaker123' target='_blank' rel='noreferrer'>
-              <FontAwesomeIcon icon={faTwitter} size='2x' className='mr-3' title='Twitter' />
+              <FontAwesomeIcon icon={faXTwitter} size='2x' className='mr-3' title='Twitter' />
             </a>
             <a href='https://www.instagram.com/itsmohammednayeem/' target='_blank' rel='noreferrer'>
               <FontAwesomeIcon icon={faInstagram} size='2x' className='mr-3' title='Instagram' />
             </a>
             <a href='https://www.linkedin.com/in/inayeem/' target='_blank' rel='noreferrer'>
-              <FontAwesomeIcon icon={faLinkedin} size='2x' title='Linkedin' />
+              <FontAwesomeIcon icon={faLinkedin} size='2x' className='mr-3' title='Linkedin' />
+            </a>
+            <a href='https://github.com/itsMohammedNayeem/' target='_blank' rel='noreferrer'>
+              <FontAwesomeIcon icon={faGithub} size='2x' title='Github' />
             </a>
           </div>
         </div>
