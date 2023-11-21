@@ -1,5 +1,5 @@
 {
-  "title": "Curriculum Vitae - Vanessa Aryanata",
+  "title": "Curriculum Vitae - Mohammed Nayeem",
   "mode": {
     "title": "La conception",
     "light": "Lumière",
@@ -26,11 +26,11 @@
     "profession": "Développeur Web",
     "lead": "Je crée des applications Web efficaces en utilisant une large pile technologique, de préférence ReactJs / NextJs et TailwindCss."
   },
-  "footer":{
+  "footer": {
     "contact": "Mon contact personnel",
-    "phone": "+41 78 872 68 43",
+    "phone": "+91 99454 90735",
     "hello": "Contactez moi",
-    "mail": "vanessa.haenni@gmail.com",
+    "mail": "nayeem.gmit@gmail.com",
     "no_spoon": "Rien à trouver"
   },
   "about": {
@@ -93,7 +93,7 @@
     }
   },
   "me": {
-    "name": "Vanessa Aryanata"
+    "name": "Mohammed Nayeem"
   },
   "skills": {
     "title": "Compétences et expertise",

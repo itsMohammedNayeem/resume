@@ -1,7 +1,7 @@
 import clsx from 'clsx'
 import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 import profile from '@/public/images/profile.jpg'
 import { faCss3, faHtml5, faNodeJs } from '@fortawesome/free-brands-svg-icons'
@@ -67,7 +67,7 @@ const About = () => {
               <div className='relative xl:w-64 mx-auto'>
                 <figure>
                   <Image
-                    alt='Vanessa Aryanata'
+                    alt='Mohammed Nayeem'
                     src={profile}
                     width={256}
                     height={370}
