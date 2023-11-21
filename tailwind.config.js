@@ -21,6 +21,9 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      fontFamily: {
+        basefont: ['CascadiaMono', 'Consolas', 'monospace']
+      },
       colors: {
         pink: '#B2FF9E',
         lightpink: '#F8BBD0',

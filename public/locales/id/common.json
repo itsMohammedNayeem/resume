@@ -22,9 +22,9 @@
   },
   "hero": {
     "hello": "Halo semuanya,",
-    "iam": "Saya Vanessa,",
+    "iam": "Saya Nayeem,",
     "profession": "Pengembang Web",
-    "lead": "Saya membuat aplikasi web yang efisien menggunakan tumpukan teknologi yang luas, lebih disukai ReactJs / NextJs dan TailwindCss."
+    "lead": "Saya membuat aplikasi web yang efisien menggunakan tumpukan teknologi yang luas, lebih disukai ReactJs, dan TailwindCss."
   },
   "footer": {
     "contact": "Kontak pribadi",
@@ -51,42 +51,42 @@
   },
   "work": {
     "title": "Pengalaman kerja",
-    "datatrans": {
-      "title": "Senior Software Engineer",
-      "company": "Datatrans / Planet",
-      "time": "April 2019 - present"
+    "planet": {
+      "title": "Senior React Engineer",
+      "company": "Planet",
+      "time": "Jan 2023 - present"
     },
-    "balihai": {
-      "title": "Digital Marketing / Online Manager",
-      "company": "Bali Hai",
+    "preqin": {
+      "title": "Senior Engineer - Frontend",
+      "company": "Preqin",
       "time": "Des 2016 - Nov 2018"
     },
-    "blackriver": {
+    "wipro": {
       "title": "Pemimpin Pengembang Frontend",
-      "company": "Blackriverdata",
+      "company": "Wipro Limited",
       "time": "Des 2015 - Jan 2017"
     },
-    "ttt": {
+    "itc": {
       "title": "Magang - Instruktor Menyelam SSI",
-      "company": "Tauch Terminal Tulamben",
-      "time": "Feb 2015 - Nov 2015"
+      "company": "ITC Infotech",
+      "time": "Jan 2019 - Sep 2020"
     },
-    "divio": {
+    "time": {
       "title": "Pengembang Frontend Senior",
-      "company": "Divio Ag",
+      "company": "Dotdash Meredith (Time Inc)",
       "time": "Okt 2013 - Jan 2015"
     },
-    "liip": {
+    "hcl": {
       "title": "Magang - Pengembang Frontend",
-      "company": "Liip AG",
+      "company": "HCL Technologies",
       "time": "Agu 2009 - Jun 2013"
     },
-    "zattoo": {
+    "mindtree": {
       "title": "Magang",
-      "company": "Zattoo Inc.",
+      "company": "Mindtree Limited",
       "time": "Agu 2008 - Mei 2009"
     },
-    "ksh": {
+    "infy": {
       "title": "Mahasiswa",
       "company": "Sekolah Ilmu Komputer Hottingen",
       "time": "Agu 2004 - Jul 2008"
@@ -99,9 +99,9 @@
     "title": "Keterampilan dan Keahlian",
     "html": "HTML / CSS / SASS",
     "javascript": "Javascript (ES6) / ReactJs / ExpressJs",
-    "marketing": "Marketing / Social Media",
+    "state": "Redux / React query",
     "agile": "Agile Managment",
-    "photoshop": "Photoshop / Figma"
+    "api": "RESTful APIs"
   },
   "counter": {
     "title": "Counter"

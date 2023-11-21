@@ -36,7 +36,7 @@ const Work = () => {
           </h3>
         </div>
         <div className='col-span-3 dark:text-white'>
-          <div className='grid gap-4 md:grid-cols-2 p-3 md:p-0'>
+          <div className='grid gap-4 md:grid-cols-2 p-6 pt-0 md:p-0'>
             <div className='history'>
               <h5 className='text-2xl text-violet font-semibold'>{t('work.title')}</h5>
               <ul>
@@ -51,9 +51,9 @@ const Work = () => {
                       animationName: 'fadeInLeftShort'
                     }}>
                     <div>
-                      <h3 className='font-semibold text-lg'>{t('work.datatrans.title')}</h3>
-                      <p>{t('work.datatrans.company')}</p>
-                      <p className='text-bordeaux dark:text-gold'>{t('work.datatrans.time')}</p>
+                      <h3 className='font-semibold text-lg'>{t('work.planet.title')}</h3>
+                      <p>{t('work.planet.company')}</p>
+                      <p className='text-bordeaux dark:text-gold'>{t('work.planet.time')}</p>
                     </div>
                   </div>
                 </li>
@@ -68,9 +68,9 @@ const Work = () => {
                       animationName: 'fadeInLeftShort'
                     }}>
                     <div>
-                      <h3 className='font-semibold text-lg'>{t('work.balihai.title')}</h3>
-                      <p>{t('work.balihai.company')}</p>
-                      <p className='text-bordeaux dark:text-gold'>{t('work.balihai.time')}</p>
+                      <h3 className='font-semibold text-lg'>{t('work.preqin.title')}</h3>
+                      <p>{t('work.preqin.company')}</p>
+                      <p className='text-bordeaux dark:text-gold'>{t('work.preqin.time')}</p>
                     </div>
                   </div>
                 </li>
@@ -85,9 +85,9 @@ const Work = () => {
                       animationName: 'fadeInLeftShort'
                     }}>
                     <div>
-                      <h3 className='font-semibold text-lg'>{t('work.blackriver.title')}</h3>
-                      <p>{t('work.blackriver.company')}</p>
-                      <p className='text-bordeaux dark:text-gold'>{t('work.blackriver.time')}</p>
+                      <h3 className='font-semibold text-lg'>{t('work.wipro.title')}</h3>
+                      <p>{t('work.wipro.company')}</p>
+                      <p className='text-bordeaux dark:text-gold'>{t('work.wipro.time')}</p>
                     </div>
                   </div>
                 </li>
@@ -102,9 +102,9 @@ const Work = () => {
                       animationName: 'fadeInLeftShort'
                     }}>
                     <div>
-                      <h3 className='font-semibold text-lg'>{t('work.ttt.title')}</h3>
-                      <p>{t('work.ttt.company')}</p>
-                      <p className='text-bordeaux dark:text-gold'>{t('work.ttt.time')}</p>
+                      <h3 className='font-semibold text-lg'>{t('work.itc.title')}</h3>
+                      <p>{t('work.itc.company')}</p>
+                      <p className='text-bordeaux dark:text-gold'>{t('work.itc.time')}</p>
                     </div>
                   </div>
                 </li>
@@ -119,9 +119,9 @@ const Work = () => {
                       animationName: 'slideInLeft'
                     }}>
                     <div>
-                      <h3 className='font-semibold text-lg'>{t('work.divio.title')}</h3>
-                      <p>{t('work.divio.company')}</p>
-                      <p className='text-bordeaux dark:text-gold'>{t('work.divio.time')}</p>
+                      <h3 className='font-semibold text-lg'>{t('work.time.title')}</h3>
+                      <p>{t('work.time.company')}</p>
+                      <p className='text-bordeaux dark:text-gold'>{t('work.time.time')}</p>
                     </div>
                   </div>
                 </li>
@@ -136,9 +136,9 @@ const Work = () => {
                       animationName: 'slideInLeft'
                     }}>
                     <div>
-                      <h3 className='font-semibold text-lg'>{t('work.liip.title')}</h3>
-                      <p>{t('work.liip.company')}</p>
-                      <p className='text-bordeaux dark:text-gold'>{t('work.liip.time')}</p>
+                      <h3 className='font-semibold text-lg'>{t('work.hcl.title')}</h3>
+                      <p>{t('work.hcl.company')}</p>
+                      <p className='text-bordeaux dark:text-gold'>{t('work.hcl.time')}</p>
                     </div>
                   </div>
                 </li>
@@ -153,9 +153,9 @@ const Work = () => {
                       animationName: 'slideInLeft'
                     }}>
                     <div>
-                      <h3 className='font-semibold text-lg'>{t('work.zattoo.title')}</h3>
-                      <p>{t('work.zattoo.company')}</p>
-                      <p className='text-bordeaux dark:text-gold'>{t('work.zattoo.time')}</p>
+                      <h3 className='font-semibold text-lg'>{t('work.mindtree.title')}</h3>
+                      <p>{t('work.mindtree.company')}</p>
+                      <p className='text-bordeaux dark:text-gold'>{t('work.mindtree.time')}</p>
                     </div>
                   </div>
                 </li>
@@ -170,9 +170,9 @@ const Work = () => {
                       animationName: 'fadeInLeftShort'
                     }}>
                     <div>
-                      <h3 className='font-semibold text-lg'>{t('work.ksh.title')}</h3>
-                      <p>{t('work.ksh.company')}</p>
-                      <p className='text-bordeaux dark:text-gold'>{t('work.ksh.time')}</p>
+                      <h3 className='font-semibold text-lg'>{t('work.infy.title')}</h3>
+                      <p>{t('work.infy.company')}</p>
+                      <p className='text-bordeaux dark:text-gold'>{t('work.infy.time')}</p>
                     </div>
                   </div>
                 </li>
@@ -190,8 +190,8 @@ const Work = () => {
                     <div className='rounded-md bg-gold opacity-40 w-full h-full absolute'></div>
                     <div
                       className='bg-gradient rounded-md h-5 transition-[width]'
-                      style={{ width: '100%' }}>
-                      <p className='sr-only'>100%</p>
+                      style={{ width: '85%' }}>
+                      <p className='sr-only'>85%</p>
                     </div>
                   </div>
                 </li>
@@ -212,7 +212,7 @@ const Work = () => {
                 <li>
                   <div className='text-icon'>
                     <i className='ion-wand'></i>
-                    <h5 className='font-semibold text-lg'>{t('skills.marketing')}</h5>
+                    <h5 className='font-semibold text-lg'>{t('skills.state')}</h5>
                   </div>
                   <div className='relative'>
                     <div className='rounded-md bg-gold opacity-40 w-full h-full absolute'></div>
@@ -240,7 +240,7 @@ const Work = () => {
                 <li>
                   <div className='text-icon'>
                     <i className='ion-wand'></i>
-                    <h5 className='font-semibold text-lg'>{t('skills.photoshop')}</h5>
+                    <h5 className='font-semibold text-lg'>{t('skills.api')}</h5>
                   </div>
                   <div className='relative'>
                     <div className='rounded-md bg-gold opacity-40 w-full h-full absolute'></div>
@@ -252,7 +252,7 @@ const Work = () => {
                   </div>
                 </li>
               </ul>
-              <h5 className='text-2xl text-violet font-semibold mt-16'>{t('language.title')}</h5>
+              {/* <h5 className='text-2xl text-violet font-semibold mt-16'>{t('language.title')}</h5>
               <ul id='progress'>
                 <li>
                   <div className='text-icon'>
@@ -310,7 +310,7 @@ const Work = () => {
                     </div>
                   </div>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

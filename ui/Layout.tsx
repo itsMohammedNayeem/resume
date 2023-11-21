@@ -10,7 +10,7 @@ import localFont from '@next/font/local'
 import { useTheme } from '../context/ThemeContext'
 
 // not yet supported with turbo
-const myFont = localFont({ src: '../public/fonts/Hind Siliguri Light.ttf' })
+// const myFont = localFont({ src: '../public/fonts/Hind Siliguri Light.ttf' })
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const { t } = useTranslation()
@@ -33,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name='msapplication-TileColor' content='#da532c' />
         <meta name='theme-color' content='#ffffff'></meta>
       </Head>
-      <div className={clsx('overflow-y-scroll dark:bg-zinc-900', myFont.className)}>{children}</div>
+      <div className={clsx('overflow-y-scroll dark:bg-black')}>{children}</div>
     </>
   )
 }
