@@ -31,7 +31,7 @@ const Work = () => {
       </h2>
       <div className='grid grid-cols-3 lg:grid-cols-4 gap-4'>
         <div className='relative min-h-[450px] hidden lg:block'>
-          <h3 className='rotate-[270deg] whitespace-nowrap absolute text-gradient tracking-wide text-4xl font-bold uppercase top-[40%] right-[-45%]'>
+          <h3 className='rotate-[270deg] whitespace-nowrap absolute text-gradient tracking-wide text-4xl font-bold uppercase top-[40%] right-[-30%]'>
             {t('me.name')}
           </h3>
         </div>
