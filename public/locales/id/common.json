@@ -1,5 +1,5 @@
 {
-  "title": "Daftar Riwayat Hidup - Vanessa Aryanata",
+  "title": "Daftar Riwayat Hidup - Mohammed Nayeem",
   "mode": {
     "title": "Desain CV",
     "light": "Cahaya",
@@ -26,11 +26,11 @@
     "profession": "Pengembang Web",
     "lead": "Saya membuat aplikasi web yang efisien menggunakan tumpukan teknologi yang luas, lebih disukai ReactJs / NextJs dan TailwindCss."
   },
-  "footer":{
+  "footer": {
     "contact": "Kontak pribadi",
-    "phone": "+41 78 872 68 43",
+    "phone": "+91 99454 90735",
     "hello": "Mari berbincang",
-    "mail": "vanessa.haenni@gmail.com",
+    "mail": "nayeem.gmit@gmail.com",
     "no_spoon": "Tidak ada yang bisa dilihat di sini"
   },
   "about": {
@@ -93,7 +93,7 @@
     }
   },
   "me": {
-    "name": "Vanessa Aryanata"
+    "name": "Mohammed Nayeem"
   },
   "skills": {
     "title": "Keterampilan dan Keahlian",

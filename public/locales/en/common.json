@@ -1,7 +1,7 @@
 {
-  "title": "Curriculum Vitae - Vanessa Aryanata",
+  "title": "Curriculum Vitae - Mohammed Nayeem",
   "me": {
-    "name": "Vanessa Aryanata"
+    "name": "Mohammed Nayeem"
   },
   "mode": {
     "title": "Theme",
@@ -26,10 +26,10 @@
   "hero": {
     "hello": "Hello World,",
     "iam": "I am Vanessa,",
-    "profession": "Web Developer",
+    "profession": "React developer",
     "lead": "I create efficient web applications using a broad tech stack, preferrably ReactJs / NextJs and TailwindCss."
   },
-  "about":{
+  "about": {
     "title": "About me",
     "reward1": {
       "p": "'b' + 'a' + +'a' + 'a'",
@@ -126,11 +126,11 @@
       "html": "HTML5"
     }
   },
-  "footer":{
+  "footer": {
     "contact": "My personal contact",
-    "phone": "+41 78 872 68 43",
+    "phone": "+91 99454 90735",
     "hello": "Say Hallo",
-    "mail": "vanessa.haenni@gmail.com",
+    "mail": "nayeem.gmit@gmail.com",
     "no_spoon": "There is no spoon"
   }
 }

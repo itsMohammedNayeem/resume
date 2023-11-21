@@ -66,7 +66,7 @@ const Hero = ({ ...pageProps }) => {
                   />
 
                   <Image
-                    alt='Vanessa Aryanata Logo'
+                    alt='Mohammed Nayeem Logo'
                     src={logo}
                     width={60}
                     height={60}
@@ -93,13 +93,13 @@ const Hero = ({ ...pageProps }) => {
               </div>
 
               <div className='relative z-10 w-full whitespace-nowrap text-center sm:text-left text-white dark:text-black'>
-                <a href='https://www.facebook.com/nessie.arya' target='_blank' rel='noreferrer'>
+                <a href='https://www.facebook.com/iammohammednayeem/' target='_blank' rel='noreferrer'>
                   <FontAwesomeIcon icon={faFacebook} size='2x' className='mr-3' title='Facebook' />
                 </a>
-                <a href='https://twitter.com/n3ssi3' target='_blank' rel='noreferrer'>
+                <a href='https://twitter.com/fmaker123' target='_blank' rel='noreferrer'>
                   <FontAwesomeIcon icon={faTwitter} size='2x' className='mr-3' title='Twitter' />
                 </a>
-                <a href='https://www.instagram.com/n3ssi3.m3' target='_blank' rel='noreferrer'>
+                <a href='https://www.instagram.com/itsmohammednayeem/' target='_blank' rel='noreferrer'>
                   <FontAwesomeIcon
                     icon={faInstagram}
                     size='2x'
@@ -108,7 +108,7 @@ const Hero = ({ ...pageProps }) => {
                   />
                 </a>
                 <a
-                  href='https://www.linkedin.com/in/vanessa-aryanata'
+                  href='https://www.linkedin.com/in/inayeem/'
                   target='_blank'
                   rel='noreferrer'>
                   <FontAwesomeIcon icon={faLinkedin} size='2x' title='Linkedin' />
