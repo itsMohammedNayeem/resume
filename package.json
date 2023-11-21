@@ -29,7 +29,7 @@
     "eslint-plugin-i18next": "^6.0.0-2",
     "http-server": "^14.1.1",
     "i18next": "^22.4.9",
-    "next": "13.1.6",
+    "next": "14.0.3",
     "next-i18next": "^13.1.5",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
