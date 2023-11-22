@@ -6,7 +6,7 @@ import React, { useEffect, useRef, useState } from 'react'
 
 import { useTheme } from '@/context/ThemeContext'
 import logo from '@/public/images/ProfileLogo.svg'
-import banner from '@/public/images/banner.jpg'
+import banner from '@/public/images/banner.png'
 import {
   faFacebookF,
   faGithub,
@@ -42,15 +42,7 @@ const Hero = ({ ...pageProps }) => {
     <section className='md:container md:mx-auto'>
       <div className='grid grid-cols-3 md:grid-cols-4 gap-4'>
         <nav className='pl-8 py-8 hidden md:block'>
-          <div
-            style={{
-              backgroundColor: darkMode ? '#ffffff' : '#000000',
-              mask: `url(${logo.src}) no-repeat center / contain`,
-              WebkitMask: `url(${logo.src}) no-repeat center / contain`,
-              height: '80px',
-              width: '80px'
-            }}
-          />
+          <Image alt='Mohammed Nayeem Logo' src={logo} className='w-20 h-20' />
           <Navigation />
         </nav>
         <main className='col-span-3'>
