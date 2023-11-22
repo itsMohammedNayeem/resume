@@ -3,8 +3,9 @@ import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import React, { useState } from 'react'
 
-import profile from '@/public/images/profile.jpg'
-import { faCss3, faHtml5, faNodeJs } from '@fortawesome/free-brands-svg-icons'
+import profile from '@/public/images/profile.png'
+import tailwindCssLogo from '@/public/images/tailwindcss.svg'
+import { faCss3, faHtml5, faReact, faSquareJs } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const About = () => {
@@ -24,15 +25,32 @@ const About = () => {
       <h2 id='about' className='sr-only'>
         {t('about.title')}
       </h2>
-      <div className='grid md:grid-cols-4 gap-4'>
+      <div className='grid md:grid-cols-4 gap-x-4'>
         <div className='md:col-start-2 md:col-span-3'>
-          <div className='grid grid-cols-3 md:grid-cols-4 pt-10 lg:justify-around'>
+          <div className='grid grid-cols-5 md:grid-cols-7 gap-x-2 pt-10 lg:justify-around'>
             <div
               className='text-center mb-4'
               onMouseEnter={() => setIsBanana(true)}
               onMouseLeave={() => setIsBanana(false)}>
               <figure className='h-[70px] p-2 md:mb-4'>
-                <FontAwesomeIcon icon={faNodeJs} size='4x' className='text-gold' title='React' />
+                <FontAwesomeIcon icon={faReact} size='4x' className='text-gold' title='React' />
+              </figure>
+              <p className='text-gold hidden md:block'>{t('about.reward1.p')}</p>
+              <h5 className='text-gold hidden md:block text-xl font-semibold'>
+                {isBanana ? t('about.reward1.h5') : t('about.reward1.question')}
+              </h5>
+            </div>
+            <div
+              className='text-center mb-4'
+              onMouseEnter={() => setIsBanana(true)}
+              onMouseLeave={() => setIsBanana(false)}>
+              <figure className='h-[70px] p-2 md:mb-4'>
+                <FontAwesomeIcon
+                  icon={faSquareJs}
+                  size='4x'
+                  className='text-gold'
+                  title='Javascript'
+                />
               </figure>
               <p className='text-gold hidden md:block'>{t('about.reward1.p')}</p>
               <h5 className='text-gold hidden md:block text-xl font-semibold'>
@@ -44,7 +62,7 @@ const About = () => {
               onMouseEnter={() => setIsSmiley(true)}
               onMouseLeave={() => setIsSmiley(false)}>
               <figure className='h-[70px] p-2 md:mb-4'>
-                <FontAwesomeIcon icon={faHtml5} size='4x' className='text-gold' title='React' />
+                <FontAwesomeIcon icon={faHtml5} size='4x' className='text-gold' title='Html' />
               </figure>
               <p className='text-gold hidden md:block'>{t('about.reward2.p')}</p>
               <h5 className='text-gold hidden md:block text-xl uppercase font-semibold'>
@@ -63,7 +81,25 @@ const About = () => {
                 {t('about.reward3.h5')}
               </h5>
             </div>
-            <div className='col-span-3 row-span-3 md:col-span-1 mb-10 md:mb-4 md:-mt-[100px] xl:-mt-[200px] z-20'>
+            <div
+              className='text-center mb-4 flex flex-col items-center'
+              onMouseEnter={() => setIsGray(true)}
+              onMouseLeave={() => setIsGray(false)}>
+              <figure className='h-[70px] p-2 md:mb-4'>
+                <div
+                  className='bg-gold h-[52px] w-[52px] rounded-full'
+                  style={{
+                    mask: `url(${tailwindCssLogo.src}) no-repeat center / contain`,
+                    WebkitMask: `url(${tailwindCssLogo.src}) no-repeat center / contain`
+                  }}
+                />
+              </figure>
+              <p className='text-gold hidden md:block'>{t('about.reward3.p')}</p>
+              <h5 className='text-gold hidden md:block text-xl uppercase font-semibold'>
+                {t('about.reward3.h5')}
+              </h5>
+            </div>
+            <div className='col-span-5 row-span-3 md:col-span-1 mb-10 md:mb-4 md:-mt-[100px] z-20'>
               <div className='relative xl:w-64 mx-auto'>
                 <figure>
                   <Image
