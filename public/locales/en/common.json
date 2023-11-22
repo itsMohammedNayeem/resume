@@ -32,15 +32,22 @@
   "about": {
     "title": "About me",
     "reward1": {
+      "p": "Surprise"
+    },
+    "reward2": {
       "p": "'b' + 'a' + +'a' + 'a'",
       "h5": "baNaNa",
       "question": "= ?"
     },
-    "reward2": {
+    "reward3": {
       "p": "Read it!",
       "h5": "&#128512;"
     },
-    "reward3": {
+    "reward4": {
+      "p": "grayscale(100%)",
+      "h5": "filter"
+    },
+    "reward5": {
       "p": "grayscale(100%)",
       "h5": "filter"
     }
