@@ -252,9 +252,9 @@ const Work = () => {
                   </div>
                 </li>
               </ul>
-              {/* <h5 className='text-2xl text-violet font-semibold mt-16'>{t('language.title')}</h5>
+              <h5 className='text-2xl text-violet font-semibold mt-16'>{t('language.title')}</h5>
               <ul id='progress'>
-                <li>
+                {/* <li>
                   <div className='text-icon'>
                     <i className='ion-wand'></i>
                     <h5 className='font-semibold text-lg'>{t('language.de')}</h5>
@@ -267,7 +267,7 @@ const Work = () => {
                       <p className='sr-only'>100%</p>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <div className='text-icon'>
                     <i className='ion-wand'></i>
@@ -283,6 +283,34 @@ const Work = () => {
                   </div>
                 </li>
                 <li>
+                  <div className='text-icon'>
+                    <i className='ion-wand'></i>
+                    <h5 className='font-semibold text-lg'>Kannada</h5>
+                  </div>
+                  <div className='relative'>
+                    <div className='rounded-md bg-gold opacity-40 w-full h-full absolute'></div>
+                    <div
+                      className='bg-gradient rounded-md h-5 transition-[width]'
+                      style={{ width: '100%' }}>
+                      <p className='sr-only'>90%</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className='text-icon'>
+                    <i className='ion-wand'></i>
+                    <h5 className='font-semibold text-lg'>Hindi</h5>
+                  </div>
+                  <div className='relative'>
+                    <div className='rounded-md bg-gold opacity-40 w-full h-full absolute'></div>
+                    <div
+                      className='bg-gradient rounded-md h-5 transition-[width]'
+                      style={{ width: '100%' }}>
+                      <p className='sr-only'>90%</p>
+                    </div>
+                  </div>
+                </li>
+                {/* <li>
                   <div className='text-icon'>
                     <i className='ion-wand'></i>
                     <h5 className='font-semibold text-lg'>{t('language.id')}</h5>
@@ -309,8 +337,8 @@ const Work = () => {
                       <p className='sr-only'>40%</p>
                     </div>
                   </div>
-                </li>
-              </ul> */}
+                </li> */}
+              </ul>
             </div>
           </div>
         </div>
