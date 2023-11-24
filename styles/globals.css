@@ -48,7 +48,7 @@
   border-top: 0;
   border-left: 0;
   height: 40px;
-  width: calc(100% - 90px);
+  width: calc(100% - 155px);
   border-image-source: linear-gradient(120deg, theme('colors.pink'), theme('colors.violet'));
   border-image-slice: 1;
   position: relative;
@@ -56,13 +56,13 @@
 
 @media (min-width: theme('screens.xl')) {
   .line {
-    width: calc(100% - 107px);
+    width: calc(100% - 160px);
   }
 }
 
 @media (min-width: theme('screens.2xl')) {
   .line {
-    width: calc(100% - 140px);
+    width: calc(100% - 210px);
   }
 }
 
