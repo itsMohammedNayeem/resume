@@ -28,7 +28,7 @@ const Settings = ({ settings, setSettings, setIsNavOpen }: Props) => {
     <>
       <button
         type='button'
-        className='text-white dark:text-black z-10'
+        className='text-white dark:text-slate-500 z-10'
         onClick={() => {
           setSettings(!settings)
           setIsNavOpen(false)
