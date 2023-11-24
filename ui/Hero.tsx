@@ -4,7 +4,6 @@ import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
 
-import { useTheme } from '@/context/ThemeContext'
 import logo from '@/public/images/ProfileLogo.svg'
 import banner from '@/public/images/banner.png'
 import {
@@ -22,7 +21,6 @@ import Settings from './Settings'
 const Hero = ({ ...pageProps }) => {
   const { t } = useTranslation()
 
-  const [darkMode] = useTheme()
   const [settings, setSettings] = useState<boolean>(false)
   const [isNavOpen, setIsNavOpen] = useState<boolean>(false)
 
@@ -79,17 +77,17 @@ const Hero = ({ ...pageProps }) => {
                 </div>
               </div>
 
-              <div className='relative z-10 w-full text-white dark:text-black top-0 left-0 pt-5'>
+              <div className='relative z-10 w-full text-white dark:text-slate-300 top-0 left-0 pt-5'>
                 <h4 className='text-xl italic xl:text-2xl mb-2'>{t('hero.hello')}</h4>
                 <h2 className='text-2xl xl:text-6xl mb-4'>
-                  {t('hero.iam')}
+                  <span dangerouslySetInnerHTML={{ __html: t('hero.iam') }} />
                   <br />
                   {t('hero.profession')}
                 </h2>
                 <h5 className='xl:text-xl mb-4 lg:pr-52'>{t('hero.lead')}</h5>
               </div>
 
-              <div className='relative z-10 w-full whitespace-nowrap text-center sm:text-left text-white dark:text-black'>
+              <div className='relative z-10 w-full whitespace-nowrap text-center sm:text-left text-white dark:text-slate-500'>
                 <a
                   href='https://www.facebook.com/iammohammednayeem/'
                   target='_blank'

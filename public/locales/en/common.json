@@ -25,7 +25,7 @@
   },
   "hero": {
     "hello": "Hello World,",
-    "iam": "I am Nayeem,",
+    "iam": "I am <strong>Nayeem</strong>,",
     "profession": "React developer",
     "lead": "I create efficient web applications using a broad tech stack, preferrably ReactJs, and TailwindCss."
   },
