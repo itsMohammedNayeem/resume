@@ -13,6 +13,7 @@ const About = () => {
   const [surprise, setSurprise] = useState<Boolean>(false)
   const [isBanana, setIsBanana] = useState<Boolean>(false)
   const [isGray, setIsGray] = useState<Boolean>(false)
+  const [isInvert, setIsInvert] = useState<Boolean>(false)
   const [isSmiley, setIsSmiley] = useState<Boolean>(false)
 
   // eslint-disable-next-line i18next/no-literal-string
@@ -45,7 +46,8 @@ const About = () => {
   return (
     <section
       className={clsx('md:container md:mx-auto', {
-        grayscale: isGray
+        grayscale: isGray,
+        invert: isInvert
       })}>
       <h2 id='about' className='sr-only'>
         {t('about.title')}
@@ -57,7 +59,9 @@ const About = () => {
               <figure className='h-[70px] p-2 md:mb-4'>
                 <FontAwesomeIcon icon={faReact} size='4x' className='text-gold' title='React' />
               </figure>
-              <button className='hidden md:block text-xl font-semibold' onClick={clickHandler}>
+              <button
+                className='hidden md:block text-xl font-semibold hover:'
+                onClick={clickHandler}>
                 {surprise ? (
                   surpriseAnimalEmoji()
                 ) : (
@@ -110,8 +114,8 @@ const About = () => {
             </div>
             <div
               className='text-center mb-4 flex flex-col items-center'
-              onMouseEnter={() => setIsGray(true)}
-              onMouseLeave={() => setIsGray(false)}>
+              onMouseEnter={() => setIsInvert(true)}
+              onMouseLeave={() => setIsInvert(false)}>
               <figure className='h-[70px] p-2 md:mb-4'>
                 <div
                   className='bg-gold h-[52px] w-[52px] rounded-full'
