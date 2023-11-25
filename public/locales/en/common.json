@@ -44,11 +44,11 @@
       "h5": "&#128512;"
     },
     "reward4": {
-      "p": "grayscale(100%)",
+      "p": "grayscale",
       "h5": "filter"
     },
     "reward5": {
-      "p": "grayscale(100%)",
+      "p": "invert",
       "h5": "filter"
     }
   },
