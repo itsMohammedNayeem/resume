@@ -21,8 +21,8 @@ const Footer = () => {
   return (
     <section className='bg-gradient text-bordeaux' id='footer'>
       <footer className='py-20 md:container md:mx-auto'>
-        <div className='p-6 flex justify-between items-end'>
-          <div>
+        <div className='p-6 grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 grid-rows-3 justify-between items-center gap-4'>
+          <div className='flex justify-center flex-col items-center md:col-span-2'>
             <div
               style={{
                 backgroundColor: '#086375',
@@ -36,7 +36,7 @@ const Footer = () => {
             <h3 className='text-4xl my-4'>{t('me.name')}</h3>
             <h4 className='text-2xl'>{t('hero.profession')}</h4>
           </div>
-          <div className='divide-y'>
+          <div className='divide-y flex flex-col gap-4'>
             <div className='p-4'>
               <h5 className='text-xl'>{t('footer.contact')}</h5>
               <div className='flex justify-between'>
@@ -66,22 +66,33 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className='socmed'>
-            <a href='https://www.facebook.com/iammohammednayeem/' target='_blank' rel='noreferrer'>
-              <FontAwesomeIcon icon={faFacebookF} size='2x' className='mr-3' title='Facebook' />
-            </a>
-            <a href='https://twitter.com/fmaker123' target='_blank' rel='noreferrer'>
-              <FontAwesomeIcon icon={faXTwitter} size='2x' className='mr-3' title='Twitter' />
-            </a>
-            <a href='https://www.instagram.com/itsmohammednayeem/' target='_blank' rel='noreferrer'>
-              <FontAwesomeIcon icon={faInstagram} size='2x' className='mr-3' title='Instagram' />
-            </a>
-            <a href='https://www.linkedin.com/in/inayeem/' target='_blank' rel='noreferrer'>
-              <FontAwesomeIcon icon={faLinkedin} size='2x' className='mr-3' title='Linkedin' />
-            </a>
-            <a href='https://github.com/itsMohammedNayeem/' target='_blank' rel='noreferrer'>
-              <FontAwesomeIcon icon={faGithub} size='2x' title='Github' />
-            </a>
+          <div className='flex gap-4 flex-col items-center md:items-end'>
+            <div>
+              <p>Find out more</p>
+            </div>
+            <div className='flex gap-4'>
+              <a
+                href='https://www.facebook.com/iammohammednayeem/'
+                target='_blank'
+                rel='noreferrer'>
+                <FontAwesomeIcon icon={faFacebookF} size='2x' title='Facebook' />
+              </a>
+              <a href='https://twitter.com/fmaker123' target='_blank' rel='noreferrer'>
+                <FontAwesomeIcon icon={faXTwitter} size='2x' title='Twitter' />
+              </a>
+              <a
+                href='https://www.instagram.com/itsmohammednayeem/'
+                target='_blank'
+                rel='noreferrer'>
+                <FontAwesomeIcon icon={faInstagram} size='2x' title='Instagram' />
+              </a>
+              <a href='https://www.linkedin.com/in/inayeem/' target='_blank' rel='noreferrer'>
+                <FontAwesomeIcon icon={faLinkedin} size='2x' title='Linkedin' />
+              </a>
+              <a href='https://github.com/itsMohammedNayeem/' target='_blank' rel='noreferrer'>
+                <FontAwesomeIcon icon={faGithub} size='2x' title='Github' />
+              </a>
+            </div>
           </div>
         </div>
       </footer>

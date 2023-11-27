@@ -26,7 +26,7 @@ const Settings = ({ settings, setSettings, setIsNavOpen }: Props) => {
   const [darkMode, setDarkMode] = useTheme()
   return (
     <button
-      className='rounded-lg whitespace-nowrap p-3 text-sm font-medium w-[80px] bg-zinc-700 text-zinc-100 hover:bg-zinc-500 hover:text-white'
+      className='rounded-lg whitespace-nowrap p-3 text-sm font-medium md:w-[80px] bg-zinc-700 text-zinc-100 hover:bg-zinc-500 hover:text-white'
       onClick={() => setDarkMode(!darkMode)}>
       <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />
       <span className='mx-2 hidden md:inline-block'>
