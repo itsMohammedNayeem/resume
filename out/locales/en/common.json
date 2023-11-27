@@ -1,0 +1,144 @@
+{
+  "title": "Curriculum Vitae - Mohammed Nayeem",
+  "me": {
+    "name": "Mohammed Nayeem"
+  },
+  "mode": {
+    "title": "Theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "title": "Language",
+    "en": "English",
+    "de": "German",
+    "fr": "French",
+    "id": "Indonesian"
+  },
+  "nav": {
+    "menu": "Open main menu",
+    "home": "Home",
+    "about": "About me",
+    "work": "Work experience",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "hello": "Hello World,",
+    "iam": "I am <strong>Nayeem</strong>,",
+    "profession": "React developer",
+    "lead": "I create efficient web applications using a broad tech stack, preferrably ReactJs, and TailwindCss."
+  },
+  "about": {
+    "title": "About me",
+    "reward1": {
+      "p": "Click",
+      "h5": "here!"
+    },
+    "reward2": {
+      "p": "'b' + 'a' + +'a' + 'a'",
+      "h5": "baNaNa",
+      "question": "= ?"
+    },
+    "reward3": {
+      "p": "Read it!",
+      "h5": "&#128512;"
+    },
+    "reward4": {
+      "p": "grayscale",
+      "h5": "filter"
+    },
+    "reward5": {
+      "p": "invert",
+      "h5": "filter"
+    }
+  },
+  "work": {
+    "title": "Work experience",
+    "planet": {
+      "title": "Senior React Engineer",
+      "company": "Planet",
+      "time": "Jan 2023 - present"
+    },
+    "preqin": {
+      "title": "Senior Engineer - Frontend",
+      "company": "Preqin",
+      "time": "Feb 2022 - Jan 2023"
+    },
+    "wipro": {
+      "title": "Technical Lead",
+      "company": "Wipro Limited",
+      "time": "Sep 2020 - Feb 2022"
+    },
+    "itc": {
+      "title": "Lead Consultant",
+      "company": "ITC Infotech",
+      "time": "Jan 2019 - Sep 2020"
+    },
+    "time": {
+      "title": "Senior Software Developer",
+      "company": "Dotdash Meredith (Time Inc)",
+      "time": "Dec 2015 - Dec 2018"
+    },
+    "hcl": {
+      "title": "Senior Software Developer",
+      "company": "HCL Technologies",
+      "time": "May 2015 - Dec 2015"
+    },
+    "mindtree": {
+      "title": "Senior Software Developer",
+      "company": "Mindtree Limited",
+      "time": "Jul 2014 - May 2015"
+    },
+    "infy": {
+      "title": "Systems Engineer/Senior Systems Engineer",
+      "company": "Infosys Limited",
+      "time": "Jul 2011 - Jul 2014"
+    }
+  },
+  "skills": {
+    "title": "Skills and Expertise",
+    "html": "HTML / CSS / TailwindCss / SAAS",
+    "javascript": "Javascript (ES6) / ReactJs",
+    "state": "Redux / React query",
+    "agile": "Agile Management",
+    "api": "RESTful APIs"
+  },
+  "counter": {
+    "title": "Counter",
+    "project": "Completed projects",
+    "hour": "Working hours",
+    "clients": "Happy clients",
+    "project_number": "123",
+    "hour_number": "456",
+    "clients_number": "98"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle1": "My",
+    "subtitle2": "Work",
+    "tech": {
+      "php": "PHP",
+      "js": "JavaScript",
+      "node": "Node.Js",
+      "ember": "Ember.js",
+      "mysql": "MySQL",
+      "rrd": "Round-robin database",
+      "magento": "Magento",
+      "symfony": "Symfony",
+      "yui": "YUI Library",
+      "python": "Python",
+      "wordpress": "Wordpress",
+      "react": "React",
+      "css": "CSS3",
+      "html": "HTML5"
+    }
+  },
+  "footer": {
+    "contact": "Phone : ",
+    "phone": "+91 99454 90735",
+    "hello": "Email : ",
+    "mail": "nayeem.gmit@gmail.com",
+    "no_spoon": "hidden"
+  }
+}
