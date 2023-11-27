@@ -135,9 +135,9 @@
     }
   },
   "footer": {
-    "contact": "My personal contact",
+    "contact": "Phone : ",
     "phone": "+91 99454 90735",
-    "hello": "Say Hello",
+    "hello": "Email : ",
     "mail": "nayeem.gmit@gmail.com",
     "no_spoon": "hidden"
   }
