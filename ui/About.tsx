@@ -59,6 +59,7 @@ const About = () => {
               <figure className='h-[70px] p-2 md:mb-4'>
                 <FontAwesomeIcon icon={faReact} size='4x' className='text-gold' title='React' />
               </figure>
+              <p className='text-gold hidden md:block'>{t('about.reward1.p')}</p>
               <button
                 className='hidden md:block text-xl font-semibold hover:'
                 onClick={clickHandler}>
@@ -66,7 +67,7 @@ const About = () => {
                   surpriseAnimalEmoji()
                 ) : (
                   <h5 className='text-gold hidden md:block text-xl font-semibold'>
-                    {t('about.reward1.p')}
+                    {t('about.reward1.h5')}
                   </h5>
                 )}
               </button>
@@ -130,7 +131,7 @@ const About = () => {
                 {t('about.reward5.h5')}
               </h5>
             </div>
-            <div className='col-span-5 row-span-3 md:col-span-1 mb-10 md:mb-4 md:-mt-[100px] z-20'>
+            <div className='col-span-5 row-span-3 md:col-span-2 mb-10 md:mb-4 md:-mt-[100px] z-20'>
               <div className='relative xl:w-64 mx-auto'>
                 <figure>
                   <Image

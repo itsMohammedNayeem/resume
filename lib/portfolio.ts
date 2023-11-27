@@ -13,8 +13,8 @@ export type Portfolio = {
 export const getPortfolio = (): Portfolio[] => [
   {
     title: 'Zattoo 2008',
-    image: 'mindtree.png',
-    url: 'mindtree.ch',
+    image: 'zattoo.png',
+    url: 'zattoo.ch',
     tech: ['php', 'js', 'rrd']
   },
   {

@@ -32,7 +32,8 @@
   "about": {
     "title": "About me",
     "reward1": {
-      "p": "Surprise"
+      "p": "Click",
+      "h5": "here!"
     },
     "reward2": {
       "p": "'b' + 'a' + +'a' + 'a'",
