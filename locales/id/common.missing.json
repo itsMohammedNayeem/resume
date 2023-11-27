@@ -1,0 +1,66 @@
+{
+  "work": {
+    "ksh": {
+      "title": "work.ksh.title",
+      "company": "work.ksh.company",
+      "time": "work.ksh.time"
+    },
+    "planet": {
+      "title": "work.planet.title",
+      "company": "work.planet.company",
+      "time": "work.planet.time"
+    },
+    "preqin": {
+      "title": "work.preqin.title",
+      "company": "work.preqin.company",
+      "time": "work.preqin.time"
+    },
+    "wipro": {
+      "title": "work.wipro.title",
+      "company": "work.wipro.company",
+      "time": "work.wipro.time"
+    },
+    "itc": {
+      "title": "work.itc.title",
+      "company": "work.itc.company",
+      "time": "work.itc.time"
+    },
+    "time": {
+      "title": "work.time.title",
+      "company": "work.time.company",
+      "time": "work.time.time"
+    },
+    "hcl": {
+      "title": "work.hcl.title",
+      "company": "work.hcl.company",
+      "time": "work.hcl.time"
+    },
+    "mindtree": {
+      "title": "work.mindtree.title",
+      "company": "work.mindtree.company",
+      "time": "work.mindtree.time"
+    },
+    "infy": {
+      "title": "work.infy.title",
+      "company": "work.infy.company",
+      "time": "work.infy.time"
+    }
+  },
+  "skills": {
+    "state": "skills.state",
+    "api": "skills.api"
+  },
+  "about": {
+    "reward2": {
+      "question": "about.reward2.question"
+    },
+    "reward4": {
+      "p": "about.reward4.p",
+      "h5": "about.reward4.h5"
+    },
+    "reward5": {
+      "p": "about.reward5.p",
+      "h5": "about.reward5.h5"
+    }
+  }
+}

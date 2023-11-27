@@ -1,0 +1,130 @@
+{
+  "title": "Daftar Riwayat Hidup - Mohammed Nayeem",
+  "mode": {
+    "title": "Desain CV",
+    "light": "Cahaya",
+    "dark": "Gelap"
+  },
+  "language": {
+    "title": "Bahasa",
+    "en": "Ingris",
+    "de": "Jerman",
+    "fr": "Perancis",
+    "id": "Indonesia"
+  },
+  "nav": {
+    "menu": "Buka navigasi",
+    "home": "Beranda",
+    "about": "Tentang saya",
+    "work": "Pengalaman kerja",
+    "portfolio": "Portfolio",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "hello": "Halo semuanya,",
+    "iam": "Saya Nayeem,",
+    "profession": "Pengembang Web",
+    "lead": "Saya membuat aplikasi web yang efisien menggunakan tumpukan teknologi yang luas, lebih disukai ReactJs, dan TailwindCss."
+  },
+  "footer": {
+    "contact": "Kontak pribadi",
+    "phone": "+91 99454 90735",
+    "hello": "Mari berbincang",
+    "mail": "nayeem.gmit@gmail.com",
+    "no_spoon": "Tidak ada yang bisa dilihat di sini"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "reward1": {
+      "p": "'b' + 'a' + +'a' + 'a'",
+      "h5": "baNaNa",
+      "question": "= ?"
+    },
+    "reward2": {
+      "p": "Read it!",
+      "h5": "&#128512;"
+    },
+    "reward3": {
+      "p": "grayscale(100%)",
+      "h5": "filter"
+    }
+  },
+  "work": {
+    "title": "Pengalaman kerja",
+    "planet": {
+      "title": "Senior React Engineer",
+      "company": "Planet",
+      "time": "Jan 2023 - present"
+    },
+    "preqin": {
+      "title": "Senior Engineer - Frontend",
+      "company": "Preqin",
+      "time": "Des 2016 - Nov 2018"
+    },
+    "wipro": {
+      "title": "Pemimpin Pengembang Frontend",
+      "company": "Wipro Limited",
+      "time": "Des 2015 - Jan 2017"
+    },
+    "itc": {
+      "title": "Magang - Instruktor Menyelam SSI",
+      "company": "ITC Infotech",
+      "time": "Jan 2019 - Sep 2020"
+    },
+    "time": {
+      "title": "Pengembang Frontend Senior",
+      "company": "Dotdash Meredith (Time Inc)",
+      "time": "Okt 2013 - Jan 2015"
+    },
+    "hcl": {
+      "title": "Magang - Pengembang Frontend",
+      "company": "HCL Technologies",
+      "time": "Agu 2009 - Jun 2013"
+    },
+    "mindtree": {
+      "title": "Magang",
+      "company": "Mindtree Limited",
+      "time": "Agu 2008 - Mei 2009"
+    },
+    "infy": {
+      "title": "Mahasiswa",
+      "company": "Sekolah Ilmu Komputer Hottingen",
+      "time": "Agu 2004 - Jul 2008"
+    }
+  },
+  "me": {
+    "name": "Mohammed Nayeem"
+  },
+  "skills": {
+    "title": "Keterampilan dan Keahlian",
+    "html": "HTML / CSS / SASS",
+    "javascript": "Javascript (ES6) / ReactJs / ExpressJs",
+    "state": "Redux / React query",
+    "agile": "Agile Managment",
+    "api": "RESTful APIs"
+  },
+  "counter": {
+    "title": "Counter"
+  },
+  "portfolio": {
+    "title": "Portofolio",
+    "subtitle1": "Kerja",
+    "subtitle2": "saya",
+    "tech": {
+      "php": "PHP",
+      "js": "JavaScript",
+      "node": "Node.Js",
+      "ember": "Ember.js",
+      "mysql": "MySQL",
+      "rrd": "Round-robin database",
+      "magento": "Magento",
+      "symfony": "Symfony",
+      "yui": "YUI Library",
+      "python": "Python",
+      "wordpress": "Wordpress",
+      "react": "React",
+      "css": "CSS3",
+      "html": "HTML5"
+    }
+  }
+}

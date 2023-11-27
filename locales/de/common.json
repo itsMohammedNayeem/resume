@@ -1,0 +1,130 @@
+{
+  "title": "Lebenslauf - Mohammed Nayeem",
+  "mode": {
+    "title": "CV Design",
+    "light": "Hell",
+    "dark": "Dunkel"
+  },
+  "language": {
+    "title": "Sprache",
+    "en": "Englisch",
+    "de": "Deutsch",
+    "fr": "Französisch",
+    "id": "Indonesisch"
+  },
+  "nav": {
+    "menu": "Navigation öffnen",
+    "home": "Home",
+    "about": "Über mich",
+    "work": "Arbeitserfahrung",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "hello": "Willkommen,",
+    "iam": "Ich heisse Nayeem,",
+    "profession": "und bin Web Entwicklerin",
+    "lead": "Ich erstelle effiziente Webanwendungen mit einem breiten Tech-Stack, vorzugsweise ReactJs, und TailwindCss."
+  },
+  "footer": {
+    "contact": "Meine Kontaktdaten",
+    "phone": "+91 99454 90735",
+    "hello": "Sag Hallo",
+    "mail": "nayeem.gmit@gmail.com",
+    "no_spoon": "Spionieren geht nicht!"
+  },
+  "about": {
+    "title": "Über mich",
+    "reward1": {
+      "p": "'b' + 'a' + +'a' + 'a'",
+      "h5": "baNaNa",
+      "question": "= ?"
+    },
+    "reward2": {
+      "p": "Read it!",
+      "h5": "&#128512;"
+    },
+    "reward3": {
+      "p": "grayscale(100%)",
+      "h5": "filter"
+    }
+  },
+  "work": {
+    "title": "Arbeitserfahrung",
+    "planet": {
+      "title": "Senior React Engineer",
+      "company": "Planet",
+      "time": "April 2019 - Heute"
+    },
+    "preqin": {
+      "title": "Senior Engineer - Frontend",
+      "company": "Preqin",
+      "time": "Dez 2016 - Nov 2018"
+    },
+    "wipro": {
+      "title": "Technical Lead",
+      "company": "Wipro Limited",
+      "time": "Dez 2015 - Jan 2017"
+    },
+    "itc": {
+      "title": "Praktikant - SSI Scuba Dive Instructor",
+      "company": "ITC Infotech",
+      "time": "Jan 2019 - Sep 2020"
+    },
+    "time": {
+      "title": "Senior Software Developer",
+      "company": "Dotdash Meredith (Time Inc)",
+      "time": "Okt 2013 - Jan 2015"
+    },
+    "hcl": {
+      "title": "Praktikant - Frontend Developer",
+      "company": "HCL Technologies",
+      "time": "May 2015 - Dec 2015"
+    },
+    "mindtree": {
+      "title": "Praktikant",
+      "company": "Mindtree Limited",
+      "time": "Aug 2008 - Mai 2009"
+    },
+    "infy": {
+      "title": "Systems Engineer/Senior Systems Engineer",
+      "company": "Informatikmittelschule Hottingen",
+      "time": "Jul 2011 - Jul 2014"
+    }
+  },
+  "me": {
+    "name": "Mohammed Nayeem"
+  },
+  "skills": {
+    "title": "Fähigkeiten und Kompetenzen",
+    "html": "HTML / CSS / SASS",
+    "javascript": "Javascript (ES6) / ReactJs / ExpressJs",
+    "state": "Redux / React query",
+    "agile": "Agile Managment",
+    "api": "RESTful APIs"
+  },
+  "counter": {
+    "title": "Counter"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle1": "Meine",
+    "subtitle2": "Arbeiten",
+    "tech": {
+      "php": "PHP",
+      "js": "JavaScript",
+      "node": "Node.Js",
+      "ember": "Ember.js",
+      "mysql": "MySQL",
+      "rrd": "Round-robin database",
+      "magento": "Magento",
+      "symfony": "Symfony",
+      "yui": "YUI Library",
+      "python": "Python",
+      "wordpress": "Wordpress",
+      "react": "React",
+      "css": "CSS3",
+      "html": "HTML5"
+    }
+  }
+}
