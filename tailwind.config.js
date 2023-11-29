@@ -31,7 +31,7 @@ module.exports = {
         violet: '#1DD3B0',
         lightviolet: '#D1C4E9',
         blue: '#311B92',
-        gold: '#D6BD96'
+        gold: '#E6BE8A'
       },
       transitionProperty: {
         width: 'width'
