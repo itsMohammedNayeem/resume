@@ -77,7 +77,7 @@ const Hero = ({ ...pageProps }) => {
                 </div>
               </div>
 
-              <div className='relative z-10 w-full text-white dark:text-slate-300 top-0 left-0 pt-5'>
+              <div className='relative z-10 w-full text-white top-0 left-0 pt-5'>
                 <h4 className='text-xl italic xl:text-2xl mb-2'>{t('hero.hello')}</h4>
                 <h2 className='text-2xl xl:text-6xl mb-4'>
                   <span dangerouslySetInnerHTML={{ __html: t('hero.iam') }} />
