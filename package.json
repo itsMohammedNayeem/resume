@@ -26,7 +26,7 @@
     "@types/react-dom": "18.2.17",
     "@types/react-responsive-masonry": "^2.1.0",
     "autoprefixer": "^10.4.13",
-    "clsx": "2.0.0",
+    "clsx": "2.1.0",
     "eslint": "8.54.0",
     "eslint-config-next": "14.0.3",
     "eslint-plugin-i18next": "^6.0.0-2",
